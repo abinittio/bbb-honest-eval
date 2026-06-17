@@ -1,0 +1,29 @@
+# Data is downloaded by the scripts, never committed
+data/
+
+# Secrets - never commit these
+.env
+*.env
+*.key
+*.pem
+*.p12
+*secret*
+*credential*
+*token*.json
+*apikey*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Run logs and regenerable figures
+results/*.log
+results/*.png
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this code or its findings, please cite this repository."
+title: "Honest Evaluation of a Blood-Brain-Barrier GNN: a leakage-controlled audit"
+abstract: >-
+  A reproducible, leakage-controlled audit of a stereochemistry-aware graph
+  neural network for blood-brain-barrier permeability, quantifying how much of its
+  reported performance depends on evaluation design (random vs scaffold splitting,
+  train/test overlap), calibration, and comparison to classical baselines.
+authors:
+  - family-names: "Yasini-Ardekani"
+    given-names: "Nabil"
+version: "1.0.0"
+date-released: "2026-06-18"
+license: MIT
+keywords:
+  - graph neural networks
+  - molecular property prediction
+  - model evaluation
+  - data leakage
+  - scaffold splitting
+  - calibration
+  - blood-brain barrier
